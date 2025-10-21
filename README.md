@@ -6,7 +6,7 @@ These examples are intended to help users automate common chemometric workflows,
 
 ---
 
-## �� Overview
+## Overview
 
 The **PLS_Toolbox CLI** provides full access to modeling, preprocessing, validation, and prediction tools directly from MATLAB scripts or the command window.  
 This repository illustrates:
@@ -20,24 +20,22 @@ Each example is self-contained and includes explanatory comments.
 
 ---
 
-## �� Repository Structure
+## Repository Structure
 
 pls_toolbox-cli-examples/
-│
-├── README.md               # This file
-├── examples/
-│   ├── pca_example.m           # Example: PCA from CLI
-│   ├── pls_regression.m        # Example: PLS regression with preprocessing
-│   ├── plda_classification.m   # Example: PLS-DA classification
-│   ├── preprocessing_demo.m    # Example: SNV, MSC, derivatives
-│   ├── batch_prediction.m      # Example: automated predictions using saved model
-│   └── …
-│
-├── data/
-│   └── example_dataset.mat     # Example data for demonstration
-│
-└── utils/
-└── helper_functions.m      # Shared helper functions
+
+	-README.md               		# This file
+	-examples/
+		├── pca_example.m           # Example: PCA from CLI
+		├── pls_regression.m        # Example: PLS regression with preprocessing
+		├── plda_classification.m   # Example: PLS-DA classification
+		├── preprocessing_demo.m    # Example: SNV, MSC, derivatives
+		├── batch_prediction.m      # Example: automated predictions using saved model
+		└── …
+	-data/
+		└── example_dataset.mat     # Example data for demonstration
+	-utils/
+		└── helper_functions.m      # Shared helper functions
 
 ---
 
