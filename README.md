@@ -21,7 +21,6 @@ Each example is self-contained and includes explanatory comments.
 
 ---
 
-<<<<<<< Updated upstream
 ## Repository Structure
 
 pls_toolbox-cli-examples/
@@ -57,7 +56,6 @@ pls_toolbox-cli-examples/
 │
 └── utils/
 	└── helper_functions.m      # Shared helper functions
->>>>>>> Stashed changes
 
 ---
 
