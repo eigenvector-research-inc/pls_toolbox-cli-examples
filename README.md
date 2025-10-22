@@ -21,8 +21,7 @@ Each example is self-contained and includes explanatory comments.
 
 ---
 
-<<<<<<< Updated upstream
-## Repository Structure
+## Proposed Repository Structure
 
 pls_toolbox-cli-examples/
 
@@ -38,26 +37,6 @@ pls_toolbox-cli-examples/
 		└── example_dataset.mat     # Example data for demonstration
 	-utils/
 		└── helper_functions.m      # Shared helper functions
-=======
-## Proposed Repository Structure
-
-pls_toolbox-cli-examples/
-│
-├── README.md               # This file
-├── examples/
-│   ├── pca_example.m           # Example: PCA from CLI
-│   ├── pls_regression.m        # Example: PLS regression with preprocessing
-│   ├── plda_classification.m   # Example: PLS-DA classification
-│   ├── preprocessing_demo.m    # Example: SNV, MSC, derivatives
-│   ├── diviner_script.m      	# Example: Running diviner from the command line 
-│   └── …
-│
-├── data/
-│   └── example_dataset.mat     # Example data not distributed with with Toolbox
-│
-└── utils/
-	└── helper_functions.m      # Shared helper functions
->>>>>>> Stashed changes
 
 ---
 
