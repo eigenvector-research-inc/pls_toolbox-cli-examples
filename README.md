@@ -9,18 +9,19 @@ These examples are intended to help users automate common chemometric workflows,
 ## Overview
 
 The **PLS_Toolbox CLI** provides full access to modeling, preprocessing, validation, and prediction tools directly from MATLAB scripts or the command window.  
-This repository illustrates:
+This repository illustrates example of:
 - How to load and preprocess data sets programmatically  
 - How to build and validate models (e.g., PCA, PLS, PLS-DA, PCR, etc.)  
 - How to export and reuse models  
 - How to perform predictions from the command line  
-- How to script batch workflows for automation and reproducibility  
+- How to script diviner from the command line
+- Any script that showcases applications of the PLS_Toolbox  
 
 Each example is self-contained and includes explanatory comments.
 
 ---
 
-## Repository Structure
+## Proposed Repository Structure
 
 pls_toolbox-cli-examples/
 
@@ -36,6 +37,7 @@ pls_toolbox-cli-examples/
 		└── example_dataset.mat     # Example data for demonstration
 	-utils/
 		└── helper_functions.m      # Shared helper functions
+
 
 ---
 
@@ -61,16 +63,14 @@ Then run an example, for instance:
 
 run('examples/pls_regression.m')
 
-
 Each script contains detailed comments explaining the CLI syntax, required inputs, and key parameters.
 
 ⸻
 
 🧠 Learning Resources
-	•	PLS_Toolbox Documentation
-	•	Eigenvector Research Tutorials
-	•	MATLAB Scripting Guide
-	•	Chemometrics in MATLAB and PLS_Toolbox — Application Notes
+	•	[**PLS_Toolbox Wiki**](https://www.eigenvectordocs.com/index.php?title=Software_User_Guide)
+	•	[**Eigenvector Research Resources**](https://eigenvector.com/resources/)
+	•	[**MATLAB Scripting Guide**](https://www.mathworks.com/help/matlab/learn_matlab/scripts.html)
 
 ⸻
 
@@ -100,7 +100,3 @@ Developed and maintained by EVRI
 in collaboration with the Eigenvector Research community.
 
 Special thanks to the chemometrics and spectroscopy community for promoting reproducible, script-based analytical workflows.
-
-⸻
-
-“From complexity to clarity — chemometrics belongs in the command line.”
